@@ -169,19 +169,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   axleInfos:
   - leftWheel: {fileID: 1457840359}
-    leftWheelMesh: {fileID: 1457840355}
     rightWheel: {fileID: 872794073}
-    rightWheelMesh: {fileID: 872794069}
+    leftWheelShape: {fileID: 1797944384}
+    rightWheelShape: {fileID: 1157518394}
     motor: 1
     steering: 0
   - leftWheel: {fileID: 2140870691}
-    leftWheelMesh: {fileID: 2140870687}
     rightWheel: {fileID: 547709162}
-    rightWheelMesh: {fileID: 547709158}
+    leftWheelShape: {fileID: 955503151}
+    rightWheelShape: {fileID: 236006757}
     motor: 0
     steering: 1
   maxMotorTorque: 900
   maxSteeringAngle: 40
+--- !u!1 &236006757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 146484, guid: 19c15655c6ee95746b4d842244c9d27a, type: 3}
+  m_PrefabInstance: {fileID: 1391995981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &489645869
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +239,7 @@ WheelCollider:
     spring: 45000
     damper: 5000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.2
+  m_SuspensionDistance: 0.32
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.1
@@ -399,7 +404,7 @@ WheelCollider:
     spring: 45000
     damper: 5000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.2
+  m_SuspensionDistance: 0.32
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.1
@@ -424,6 +429,11 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!1 &955503151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 118258, guid: 19c15655c6ee95746b4d842244c9d27a, type: 3}
+  m_PrefabInstance: {fileID: 1391995981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,6 +526,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1157518394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 159728, guid: 19c15655c6ee95746b4d842244c9d27a, type: 3}
+  m_PrefabInstance: {fileID: 1391995981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1297879895
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,7 +843,7 @@ WheelCollider:
     spring: 45000
     damper: 5000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.2
+  m_SuspensionDistance: 0.32
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.1
@@ -853,6 +868,11 @@ WheelCollider:
   m_LayerOverridePriority: 0
   m_Enabled: 1
   m_ProvidesContacts: 0
+--- !u!1 &1797944384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 182090, guid: 19c15655c6ee95746b4d842244c9d27a, type: 3}
+  m_PrefabInstance: {fileID: 1391995981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2140870687 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 105406, guid: 19c15655c6ee95746b4d842244c9d27a, type: 3}
@@ -872,7 +892,7 @@ WheelCollider:
     spring: 45000
     damper: 5000
     targetPosition: 0.5
-  m_SuspensionDistance: 0.2
+  m_SuspensionDistance: 0.32
   m_ForceAppPointDistance: 0
   m_Mass: 20
   m_WheelDampingRate: 0.1
