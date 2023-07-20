@@ -2,8 +2,8 @@
 Arnavutköy Game Developer Camp
 
 ## Sections
-- [Week 1](#week_1)
-- [Week 2](#week_2)
+- [Week 1](#week-1)
+- [Week 2](#week-2)
 
 ### Week 1
 Game includes a free car asset from unity asset store, and a simple car controller.
