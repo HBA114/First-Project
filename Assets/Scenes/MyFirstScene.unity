@@ -409,7 +409,7 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.1
   m_ForwardFriction:
-    m_ExtremumSlip: 0.3
+    m_ExtremumSlip: 0.8
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
@@ -848,7 +848,7 @@ WheelCollider:
   m_Mass: 20
   m_WheelDampingRate: 0.1
   m_ForwardFriction:
-    m_ExtremumSlip: 0.3
+    m_ExtremumSlip: 0.8
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.8
     m_AsymptoteValue: 0.5
